@@ -18,5 +18,17 @@ namespace PocRandD.Test
             var result = controller.Privacy();
             Assert.NotNull(result);
         }
+        
+        [Fact]
+        public void Test2()
+        {
+            Assert.IsTrue(true);
+        }
+        
+        [Fact]
+        public void Test3()
+        {
+            Assert.IsTrue(true);
+        }
     }
 }
